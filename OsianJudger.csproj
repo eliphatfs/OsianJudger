@@ -54,6 +54,12 @@
     <Compile Include="Game\Map\BreakableMapObject.cs" />
     <Compile Include="Game\Map\EmptyMapObject.cs" />
     <Compile Include="Game\Map\MapData.cs" />
+    <Compile Include="Game\Map\MapFiller\EmptyFiller.cs" />
+    <Compile Include="Game\Map\MapFiller\ChessFiller.cs" />
+    <Compile Include="Game\Map\MapFiller\FullFiller.cs" />
+    <Compile Include="Game\Map\MapFiller\RandomFiller.cs" />
+    <Compile Include="Game\Map\MapFiller\FillerBase.cs" />
+    <Compile Include="Game\Map\MapGenerator.cs" />
     <Compile Include="Game\Map\MapObjectBase.cs" />
     <Compile Include="Game\Map\ObstacleMapObject.cs" />
     <Compile Include="Game\Operation\EndTurnOperation.cs" />
